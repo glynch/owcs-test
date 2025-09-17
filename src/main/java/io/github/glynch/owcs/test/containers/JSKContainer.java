@@ -61,4 +61,8 @@ public class JSKContainer extends GenericContainer<JSKContainer> {
         return getBaseUrl() + "/HelloCS";
     }
 
+    public String getRestUrl() {
+        return getBaseUrl() + "/REST";
+    }
+
 }
