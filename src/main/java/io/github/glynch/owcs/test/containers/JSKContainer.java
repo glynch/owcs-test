@@ -4,6 +4,11 @@ import org.testcontainers.containers.GenericContainer;
 import org.testcontainers.containers.wait.strategy.Wait;
 import org.testcontainers.utility.DockerImageName;
 
+/**
+ * A container for the WebCenter Sites JumpstartKit
+ * 
+ * @see <a href="https://java.testcontainers.org/">Test containers for Java</a>
+ */
 public class JSKContainer extends GenericContainer<JSKContainer> {
 
     private static final DockerImageName DOCKER_IMAGE_NAME = DockerImageName.parse("grahamlynch/jsk");

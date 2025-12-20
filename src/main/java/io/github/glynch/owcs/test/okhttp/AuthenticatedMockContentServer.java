@@ -8,11 +8,13 @@ import org.apache.commons.io.FileUtils;
 
 import okhttp3.mockwebserver.MockResponse;
 
+/**
+ * A mock WebCenter Sites cContent Server that can be used to test authenticated
+ * requests.
+ *
+ * 
+ */
 public class AuthenticatedMockContentServer extends MockContentServer {
-
-    public AuthenticatedMockContentServer() {
-
-    }
 
     public void enqueueMultiTicket() {
         getServer().enqueue(new MockResponse().setResponseCode(200)

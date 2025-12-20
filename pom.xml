@@ -42,9 +42,7 @@
         </developer>
     </developers>
 
-
     <dependencies>
-
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>mockwebserver</artifactId>
